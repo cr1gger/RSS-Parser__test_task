@@ -1,0 +1,13 @@
+[Unit]
+Description=ParserFeedDaemon
+After=network.target
+After=mysql.service
+Requires=mysql.service
+
+[Service]
+Type=simple
+ExecStart=cd www/feed-parser && php yii daemon/run
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
