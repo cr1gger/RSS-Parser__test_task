@@ -1,3 +1,8 @@
+**Тестовое задание**
+Полная задача здесь: [https://drive.google.com/file/d/1BdwObaPK_7kFWYHblyx0ErXu6nxWdA9P/view?usp=sharing][Google Drive]
+
+[Google Drive]: https://drive.google.com/file/d/1BdwObaPK_7kFWYHblyx0ErXu6nxWdA9P/view?usp=sharing
+
 **Требованя**
 1. PHP >= 7.0
 2. PostgreSQL
@@ -15,7 +20,3 @@
 8. Добавить демон в автозагрузку `systemctl enable parser-daemon.service`
 9. Запускаем демона: `systemctl start parser-daemon.service`
 
-**Задача**
-Полная задача здесь: [https://drive.google.com/file/d/1BdwObaPK_7kFWYHblyx0ErXu6nxWdA9P/view?usp=sharing][Google Drive]
-
-[Google Drive]: https://drive.google.com/file/d/1BdwObaPK_7kFWYHblyx0ErXu6nxWdA9P/view?usp=sharing
